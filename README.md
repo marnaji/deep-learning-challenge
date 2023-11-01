@@ -91,14 +91,14 @@ For this part of the assignment, you’ll write a report on the performance of t
    3. What variable(s) should be removed from the input data because they are neither targets nor features?
       Both the 'EIN' and 'NAME' columns were excluded from the dataset because they did not serve as either target variables or features for the dataset.
    
-   [DroppedCol](/images/droppedCol.png)
+![DroppedCol](/images/droppedCol.png)
 
    * Compiling, Training, and Evaluating the Model
    1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
       
       In the initial attempt, I selected 8 hidden nodes for the first layer and 5 hidden nodes for the second layer as initial choices, which were essentially arbitrary selections. These choices were intended as starting points for further iterations and adjustments in the second attempt to fine-tune the neural network model.
 
-   [firstAttempt](/images/layesFirtsAttempt.png)
+![firstAttempt](/images/layesFirtsAttempt.png)
 
    2. Were you able to achieve the target model performance?
       Regrettably, I was unable to attain the desired 75% model accuracy target.
@@ -109,4 +109,4 @@ For this part of the assignment, you’ll write a report on the performance of t
 ### Summary:
 In summary, the deep learning model achieved an accuracy of approximately 73% in predicting the classification problem. To achieve higher prediction accuracy, it would be advisable to improve the correlation between the input and output. This could involve more comprehensive data preprocessing, exploring different activation functions, and iterating on the model until a higher level of accuracy is achieved.
 
-   [summary](/images/Summary.png)
+![summary](/images/Summary.png)
